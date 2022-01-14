@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blogs
+  module:
+    - views
+  theme:
+    - sm_dev_portal_theme
+id: exposed_blogs_tags
+theme: sm_dev_portal_theme
+region: hidden
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:blogs-blog_list'
+settings:
+  id: 'views_exposed_filter_block:blogs-blog_list'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }
